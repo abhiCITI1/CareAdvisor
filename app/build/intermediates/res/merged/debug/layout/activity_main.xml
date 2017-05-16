@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton
+            android:id="@+id/btnSpeak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ico_mic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/tap_on_mic"
+            android:textColor="#FF9933CC"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/finalText"
+        android:layout_width="250sp"
+        android:layout_height="150sp"
+        android:layout_marginBottom="26dp"
+        android:textAlignment="center"
+        android:autoText="false"
+        android:text="@string/finalText"
+        android:textColor="#FF9933CC"
+        android:textSize="15sp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignEnd="@+id/registration"
+        android:layout_marginEnd="45dp" />
+
+    <Button
+        android:id="@+id/registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="18dp"
+        android:onClick="OnRegistrationClick"
+        android:text="Registration" />
+
+    <Button
+    android:id="@+id/goToFindDoctor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="goToFindDoctor"
+    android:text="Find Doctor"
+    android:layout_marginStart="23dp"
+    android:layout_alignBaseline="@+id/registration"
+    android:layout_alignBottom="@+id/registration"
+    android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

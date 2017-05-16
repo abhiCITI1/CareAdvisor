@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Abhishek/AndroidStudioProjects/SpeechToText copy/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/Abhishek/AndroidStudioProjects/SpeechToText copy/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/Abhishek/AndroidStudioProjects/SpeechToText/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/res/menu/main.xml"
+    }
+]

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.speechtotext.Main2Activity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="54dp"
+        android:id="@+id/textView"
+        android:textColor="#FF9933CC"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_marginStart="43dp"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Specialization"
+        android:textColor="#FF9933CC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView1"
+        android:layout_below="@+id/editname"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/editspec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Specialization"
+
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignStart="@+id/editname" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Address"
+        android:textColor="#FF9933CC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/editspec"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/editadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address "
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignStart="@+id/editspec" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Contact"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="11dp"
+        android:textColor="#FF9933CC"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/editadd"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/editcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone No"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toEndOf="@+id/textView1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Time"
+        android:textColor="#FF9933CC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/textView4"
+        android:layout_alignBaseline="@+id/edittime"
+        android:layout_alignBottom="@+id/edittime"
+        android:layout_alignStart="@+id/textView" />
+    <EditText
+        android:id="@+id/edittime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter Availability"
+        android:layout_below="@+id/editcontact"
+        android:layout_alignStart="@+id/editadd" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RegistrationNum"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/textView5"
+        android:textColor="#FF9933CC"
+        android:layout_alignBaseline="@+id/editreg"
+        android:layout_alignBottom="@+id/editreg"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/editreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Registration No."
+        android:layout_below="@+id/edittime"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/editcontact" />
+    <Button
+        android:id="@+id/registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="registerDoctor"
+        android:text="@string/Registration"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp" />
+
+
+    /*Button
+        android:id="@+id/findDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="findDoctor"
+        android:text="@string/findDoctor"
+        android:layout_alignBaseline="@+id/registration"
+        android:layout_alignBottom="@+id/registration"
+        android:layout_alignParentEnd="true"
+
+        */
+
+
+</RelativeLayout>

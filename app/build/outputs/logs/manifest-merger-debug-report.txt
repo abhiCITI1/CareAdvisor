@@ -1,0 +1,101 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/Abhishek/.android/build-cache/9443ad8a2244b2d9518dfb4e9938456f7f099aa9/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.1] /Users/Abhishek/.android/build-cache/38a6f1d14fc2f933a62ca2c4b4221289da12068e/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] /Users/Abhishek/.android/build-cache/e2e039005f70ee1c9b904bc2aaf9ec1fa2d5682a/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] /Users/Abhishek/.android/build-cache/218fae842928751bfc1cb65aabacd1fe43efaf45/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/Abhishek/.android/build-cache/cc366653c4844a757b7c6c35441c08596ca0afb4/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.1] /Users/Abhishek/.android/build-cache/c7af3d0914beeb9094f585381a321a03d47c361f/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/Abhishek/.android/build-cache/7e1e22a6134f55306232b44d79cbfb4a2122f9f6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/Abhishek/.android/build-cache/a7c6ab3bfdcac609283e1f3029b8177100e03c5c/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.0.1] /Users/Abhishek/.android/build-cache/140fcfd89a35640d5fc9bb61ab4fe8a920550068/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Abhishek/.android/build-cache/009dccc0abeabc99fdb4fb3cdf1538aee7a22946/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.1] /Users/Abhishek/.android/build-cache/9443ad8a2244b2d9518dfb4e9938456f7f099aa9/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:13:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:14:22-77
+application
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:16:5-34:19
+MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/Abhishek/.android/build-cache/9443ad8a2244b2d9518dfb4e9938456f7f099aa9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.1] /Users/Abhishek/.android/build-cache/38a6f1d14fc2f933a62ca2c4b4221289da12068e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] /Users/Abhishek/.android/build-cache/e2e039005f70ee1c9b904bc2aaf9ec1fa2d5682a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] /Users/Abhishek/.android/build-cache/218fae842928751bfc1cb65aabacd1fe43efaf45/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/Abhishek/.android/build-cache/cc366653c4844a757b7c6c35441c08596ca0afb4/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] /Users/Abhishek/.android/build-cache/c7af3d0914beeb9094f585381a321a03d47c361f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /Users/Abhishek/.android/build-cache/7e1e22a6134f55306232b44d79cbfb4a2122f9f6/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /Users/Abhishek/.android/build-cache/a7c6ab3bfdcac609283e1f3029b8177100e03c5c/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.0.1] /Users/Abhishek/.android/build-cache/140fcfd89a35640d5fc9bb61ab4fe8a920550068/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Abhishek/.android/build-cache/009dccc0abeabc99fdb4fb3cdf1538aee7a22946/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:19:9-41
+	android:allowBackup
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:18:9-45
+	android:theme
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:20:9-40
+activity#info.androidhive.speechtotext.MainActivity
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:label
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:22:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:27:27-74
+activity#info.androidhive.speechtotext.Main2Activity
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:30:9-32:60
+	android:label
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:32:13-57
+	android:name
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:31:13-42
+activity#info.androidhive.speechtotext.Main3Activity
+ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:33:9-60
+	android:name
+		ADDED from /Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/AndroidManifest.xml:33:19-48

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Abhishek/AndroidStudioProjects/SpeechToText/app/build/intermediates/res/merged/debug/drawable-hdpi/ico_mic.png",
+        "source": "/Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/res/drawable-hdpi/ico_mic.png"
+    },
+    {
+        "merged": "/Users/Abhishek/AndroidStudioProjects/SpeechToText copy/app/build/intermediates/res/merged/debug/drawable-hdpi/ico_mic.png",
+        "source": "/Users/Abhishek/AndroidStudioProjects/SpeechToText copy/app/src/main/res/drawable-hdpi/ico_mic.png"
+    },
+    {
+        "merged": "/Users/Abhishek/AndroidStudioProjects/SpeechToText copy/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/Abhishek/AndroidStudioProjects/SpeechToText copy/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Abhishek/AndroidStudioProjects/SpeechToText/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/Abhishek/AndroidStudioProjects/SpeechToText/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Care Advisor</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="finalText">Hii..I am here to help you.Tell me your health problem!</string>
+    <string name="title_activity_main2">Care Advisor</string>
+    <string name="Name">Name</string>
+    <string name="Registration">Registration</string>
+    <string name="RegistrationNum">Registration No</string>
+    <string name="Time">Time</string>
+    <string name="Contact">Contact</string>
+    <string name="Address">Address</string>
+    <string name="Specialization">Specialization</string>
+    <string name="findDoctor">Find Doctor</string>
+    Specialization
+    Registration
+</resources>

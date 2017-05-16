@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Abhishek/AndroidStudioProjects/SpeechToText copy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44e4cd503191fcfbb66f4647f86cbab1b763508c">
+        <dex dex="/Users/Abhishek/AndroidStudioProjects/SpeechToText copy/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4661184d6efb5cea5748d24259a31d2366a14d8c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Abhishek/AndroidStudioProjects/SpeechToText/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3a62a982a80c2983d0d7c14e7d55777798e14221">
+        <dex dex="/Users/Abhishek/AndroidStudioProjects/SpeechToText/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3e6989ffa112591f510b8fba3ff421cf9d427e66/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Abhishek/AndroidStudioProjects/SpeechToText copy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/Abhishek/AndroidStudioProjects/SpeechToText copy/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a0343f9193698173a7a07edfc8b708841945a3b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Abhishek/AndroidStudioProjects/SpeechToText/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/Abhishek/AndroidStudioProjects/SpeechToText/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8e1793cc87521669aa546a1bceaf045904eac435/classes.dex" />
+    </item>
+
+</items>
